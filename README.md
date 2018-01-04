@@ -1,2 +1,2 @@
 # python_ws
-python 练习为目的
+python test project.
