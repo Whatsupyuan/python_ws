@@ -1,6 +1,7 @@
 '''
 数组操作 CURD
 
+增加:
 添加 : append(value);
 插入元素 : insert(targetIndex , value);
 
