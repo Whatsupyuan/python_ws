@@ -31,3 +31,4 @@ del guestArr[-1];
 del guestArr[-1];
 print("最后的邀请名单:") ;
 print(guestArr) ;
+
