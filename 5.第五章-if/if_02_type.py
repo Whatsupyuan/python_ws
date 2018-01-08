@@ -19,5 +19,8 @@ age = 12
 print(age == 32)
 print(age == 12)
 
-# Judge list includ element
+# list - in
 print("bmw" in cars)
+
+# list - not in
+print("bmw" not in cars)
