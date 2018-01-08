@@ -6,6 +6,7 @@ for food in foodTuple:
 
 print()
 
+# 下一行会报错,tuple不允许修改
 # foodTuple[2] = "123" ;
 foodTuple = ('大米', '派', "noodle")
 for food in foodTuple:

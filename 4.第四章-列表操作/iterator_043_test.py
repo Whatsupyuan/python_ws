@@ -19,6 +19,7 @@ for num in range(1 , 20+1 , 2):
     print(num)
 
 print()
+
 # 4.7 3~30 3的倍数
 for num in range(3,30+1,3):
     print(num)
@@ -32,7 +33,6 @@ print(arr)
 # 4.9 1-10 整数立方列表打印(列表解析)
 arr = [num**3 for num in range(1,11)]
 print(arr)
-
 
 
 
