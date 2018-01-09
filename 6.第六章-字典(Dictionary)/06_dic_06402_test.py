@@ -55,5 +55,3 @@ for cityName,info in cityArr.items():
     print(cityName)
     for key,val in info.items():
         print(key + " " + val)
-
-
