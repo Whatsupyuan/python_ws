@@ -28,7 +28,7 @@ while flag:
     que = input("Would you let anthor one do this ?(Yes/No)")
     if que.lower() == "no":
         flag = False
-for name , place in result.items():
+for name,place in result.items():
     print(name + " want go to " + place)
 
 
