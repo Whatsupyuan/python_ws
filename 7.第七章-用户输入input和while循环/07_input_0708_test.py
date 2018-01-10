@@ -30,6 +30,3 @@ while flag:
         flag = False
 for name,place in result.items():
     print(name + " want go to " + place)
-
-
-
