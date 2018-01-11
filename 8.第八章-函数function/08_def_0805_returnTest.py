@@ -32,5 +32,3 @@ while flag:
         break
     albumInfo = make_album2(singer,albumName)
     print(albumInfo)
-
-
