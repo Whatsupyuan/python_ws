@@ -1,3 +1,7 @@
+'''
+父类 , 子类
+继承
+'''
 class Car():
     def __init__(self , name , series):
         self.name = name
@@ -20,3 +24,8 @@ car.carInfo()
 
 carElec = ElectriCar("特斯拉" , "P80")
 carElec.printElectriCarInfo()
+
+
+# 输出
+# toyota 霸道
+# 特斯拉 P80Electri
