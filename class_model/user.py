@@ -1,5 +1,5 @@
-# 9-7
-# 父类
+from class_model.privileges import Privileges
+
 class User():
     def __init__(self , first_name , last_name , address):
         self.first_name = first_name
@@ -18,18 +18,3 @@ class Admin(User):
             super().__init__(first_name , last_name , address)
             # 引用 , 空的构造方法
             self.privileges = Privileges()
-
-# class
-class Privileges():
-    def __init__(self):
-        self.privileges = ["can add post", "can delete post", "can ban user"]
-
-    def show_privileges(self):
-        if self.privileges:
-            for privilege in self.privileges:
-                print("特殊权限 : " + privilege)
-
-user = Admin("hr" , "y" , "BJ")
-#user.show_privileges()
-# 调用引用中的方法
-user.privileges.show_privileges()
