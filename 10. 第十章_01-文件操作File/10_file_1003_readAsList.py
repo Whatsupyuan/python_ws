@@ -18,20 +18,3 @@ with open(fileName) as file:
     line = file.readlines()
 for l in  line:
     print(len(l.strip()))
-
-
-# 判断生日在不在圆周率中
-content = ""
-with open(fileName) as file:
-    lines = file.readlines()
-for l in lines :
-    content += str(l)
-
-brithday = input("Please input your brithDay?")
-if brithday in content:
-    print("包含")
-else:
-    print("不包含")
-
-
-
