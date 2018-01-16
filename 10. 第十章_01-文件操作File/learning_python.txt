@@ -1,0 +1,5 @@
+In Python you can list
+In Python you can If
+In Python you can Dictionary
+In Python you can input
+In Python you can while loop
