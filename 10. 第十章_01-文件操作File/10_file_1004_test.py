@@ -1,3 +1,5 @@
+# read() 一次性读取所有内容
+# readlines() 读取一个 list 到目前参数中
 with open("learning_python.txt") as file:
     content = file.read()
     print(content)
