@@ -33,3 +33,13 @@ for userName in set(favorite_num_dic.keys()):
     else:
         print("未知人员,"+userName)
 
+print()
+
+# set 去重复
+# 去重复展示value中的值
+arr = ["kobe","kobe","kobe"]
+for val in set(arr):
+    print(val)
+print()
+for val in set(favorite_num_dic.values()):
+    print(val)
