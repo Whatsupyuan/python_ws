@@ -25,5 +25,15 @@ numArr = list(range(1, 1000 * 1000 + 1))
 #     arr.append(num**3)
 # iteratorMethod(arr)
 
-arrNum = [num**3 for num in range(1,11)]
-iteratorMethod(arrNum)
+# arrNum = [num**3 for num in range(1,11)]
+# iteratorMethod(arrNum)
+
+# orderedDict 保存插入字典中的顺序
+from collections import OrderedDict
+dict = OrderedDict()
+dict["h3"] = "hello3"
+dict["h1"] = "hello1"
+dict["h2"] = "hello2"
+
+for k, v in dict.items():
+    print(k + " " + v)
