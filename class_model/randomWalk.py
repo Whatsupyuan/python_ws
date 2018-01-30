@@ -12,11 +12,11 @@ class RandomWalk():
         while len(self.xvalues) < self.num_points:
             # list 中随机选择一个数 -1与1中进行随机选择
             x_distinction = choice([-1, 1])
-            x_distance = choice([0, 1, 2, 3, 4])
+            x_distance = choice([0, 1, 2, 3, 4, 5, 6, 7, 8])
             x_step = x_distance * x_distinction
 
             y_distinction = choice([-1, 1])
-            y_distance = choice([0, 1, 2, 3, 4])
+            y_distance = choice([0, 1, 2, 3, 4, 5, 6, 7, 8])
             y_step = y_distance * y_distinction
 
             # 拒绝原地踏步
