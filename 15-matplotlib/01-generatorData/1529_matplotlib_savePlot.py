@@ -12,6 +12,4 @@ plt.xlabel("基数",fontsize=20)
 plt.ylabel("乘积" , fontsize=20)
 
 #　plt.axis([0, 1000, 0 , 11000])
-# 替换savefig 保存图片
-plt.savefig('squares.png', bbox_inches="tight")
-#plt.show()
+plt.show()
