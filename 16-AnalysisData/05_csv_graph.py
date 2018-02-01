@@ -12,5 +12,5 @@ with open(filename) as file:
         # parse int type
         hight.append(int(row[1]))
 
-plt.plot(hight)
+plt.plot(hight,color='red')
 plt.show()
