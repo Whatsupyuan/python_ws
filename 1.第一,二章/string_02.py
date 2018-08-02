@@ -1,3 +1,3 @@
-message="ada name" ; 
-message="\tada \n name" ; 
-print(message) ; 
+message="ada name"  
+message="\tada \n name"  
+print(message)  
